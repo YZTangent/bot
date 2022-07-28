@@ -58,4 +58,5 @@ async def on_guild_scheduled_event_unsubscribe(event, user):
     await supabaseinteraction.set_rsvp(rsvpinfo)
 
 bot.load_extension("cogs.Slash")
+bot.load_extension("cogs.Sched")
 bot.run(BOT_TOKEN)

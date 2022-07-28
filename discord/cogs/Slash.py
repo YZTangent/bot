@@ -1,5 +1,4 @@
 import asyncio
-from operator import truediv
 import disnake
 from disnake.ext import commands
 from typing import List
