@@ -1,0 +1,11 @@
+.env
+.idea
+connection/__pycache__
+telebot/__pycache__/basic.cpython-310.pyc
+telebot/__pycache__/birthday.cpython-310.pyc
+telebot/__pycache__/cogs.cpython-310.pyc
+telebot/__pycache__/create_event.cpython-310.pyc
+telebot/__pycache__/inline_rsvp.cpython-310.pyc
+telebot/__pycache__/list_event.cpython-310.pyc
+telebot/__pycache__/rsvp.cpython-310.pyc
+telebot/__pycache__/scheduler.cpython-310.pyc
