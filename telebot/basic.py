@@ -6,7 +6,7 @@ from telegram.ext import (
     CommandHandler,
     ContextTypes,
 )
-from telebot.cogs import private_check
+from cogs import private_check
 
 
 async def start_private(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:

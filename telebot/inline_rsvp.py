@@ -11,7 +11,7 @@ from telegram.ext import (
     ContextTypes,
 )
 from connection.exceptions import UserNotRegisteredError
-from telebot.rsvp import build_rsvp_message
+from rsvp import build_rsvp_message
 
 
 async def load_inline_rsvp(update: Update, context: ContextTypes.DEFAULT_TYPE):

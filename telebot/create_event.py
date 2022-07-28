@@ -8,7 +8,7 @@ from telegram.ext import (
     MessageHandler,
     filters,
 )
-from telebot.cogs import private_check
+from cogs import private_check
 import operator
 import json
 

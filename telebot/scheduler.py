@@ -18,7 +18,7 @@ from telegram.ext import (
 from connection import supabaseinteraction as supa
 from connection.exceptions import UserNotRegisteredError, InvalidDatetimeError
 from connection.helper import datetime_validation
-from telebot.cogs import private_check
+from cogs import private_check
 
 
 def create_reminder():

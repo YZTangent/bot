@@ -6,7 +6,7 @@ from telegram.ext import (
     CommandHandler,
     ContextTypes,
 )
-from telebot.cogs import private_check, escape_markdown
+from cogs import private_check, escape_markdown
 from connection.exceptions import UserNotRegisteredError
 
 

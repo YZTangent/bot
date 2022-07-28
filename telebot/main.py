@@ -1,3 +1,6 @@
+import sys
+sys.path.append(".")
+
 from telegram.ext import Application
 from create_event import create_event
 from rsvp import send_rsvp, choose_rsvp, handle_rsvp, reload_rsvp
@@ -5,7 +8,8 @@ from list_event import list_events
 from inline_rsvp import inline_rsvp
 from scheduler import create_reminder, event_reminder
 from birthday import birthday_wishes
-from basic import start, help, get_id, set_birthday, web_data
+from basic import start, help, get_id, set_birthday
+from webapp import web_data
 import logging
 from dotenv import load_dotenv
 import os
