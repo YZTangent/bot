@@ -1,11 +1,11 @@
+import sys
+sys.path.append('.')
 import disnake
 from disnake.ext import commands
 from dotenv import load_dotenv
 # from interactions import SlashCommand
 import os
 from supabase import create_client, Client
-import sys
-sys.path.append('..')
 from connection import supabaseinteraction
 
 # load credentials
